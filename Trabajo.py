@@ -23,3 +23,10 @@ def punto3():
     return print("el resultado es de: ", y)
 
 punto3()
+
+
+def punto4(p, v, t):
+    r =(p * v) / (0.37 * (t + 460))
+    return print("el resultado es de: ", r)
+
+punto4()
