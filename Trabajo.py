@@ -30,3 +30,10 @@ def punto4(p, v, t):
     return print("el resultado es de: ", r)
 
 punto4()
+
+
+def punto5(edad):
+    r = (200 - edad) / 10
+    return print("el resultado es de: ", r) 
+
+punto5()
