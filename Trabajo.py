@@ -54,3 +54,15 @@ def punto7(saldo):
     return print("el resultado es de: ", r) 
 
 punto7(35000)
+
+
+def punto8(sueldo):
+    ley = sueldo * 0.01
+    segurosocial = sueldo * 0.04
+    seguroforsozo = sueldo * 0.005
+    caja = sueldo * 0.05
+    sueldo_final = sueldo - ley - segurosocial - seguroforsozo - caja
+
+    return print("resultado: ", ley, "resultado: ", segurosocial, "resultado: ", seguroforsozo, "resultado:", caja, "resultado: ", sueldo_final)
+
+punto8(750000)
