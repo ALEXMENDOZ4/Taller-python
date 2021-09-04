@@ -47,3 +47,10 @@ def punto6(inv1, inv2, inv3):
     return print("resultado: ", porcentaje1,"resultado: ", porcentaje2,"resultado: ", porcentaje3)
 
 punto6(1000,2000,3000)
+
+
+def punto7(saldo):
+    r = saldo + (saldo * 0.015)
+    return print("el resultado es de: ", r) 
+
+punto7(35000)
