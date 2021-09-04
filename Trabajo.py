@@ -29,11 +29,21 @@ def punto4(p, v, t):
     r =(p * v) / (0.37 * (t + 460))
     return print("el resultado es de: ", r)
 
-punto4()
+punto4(4,10,15)
 
 
 def punto5(edad):
     r = (200 - edad) / 10
     return print("el resultado es de: ", r) 
 
-punto5()
+punto5(10)
+
+
+def punto6(inv1, inv2, inv3):
+    total = inv1 + inv2 + inv3
+    porcentaje1 = inv1 * 100 / total
+    porcentaje2 = inv2 * 100 / total
+    porcentaje3 = inv3 * 100 / total
+    return print("resultado: ", porcentaje1,"resultado: ", porcentaje2,"resultado: ", porcentaje3)
+
+punto6(1000,2000,3000)
