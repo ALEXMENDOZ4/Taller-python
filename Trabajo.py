@@ -106,7 +106,7 @@ def punto13(n_fotos):
     r = (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
     return print("el resultado es de: ", r)
 
-punto13(15)
+punto13(10)
 
 
 
@@ -136,7 +136,7 @@ def punto16(n_personas, n_dias):
     r = total_iva
     return print("el resultado es de: ", r)
 
-punto16(10,8)
+punto16(10,4)
 
 
 
@@ -144,7 +144,7 @@ def punto17(n_dias):
     r = ((n_dias - 1) * 200000) + 100000
     return print("el resultado es de: ", r) 
 
-punto17(10)
+punto17(6)
 
 
 
@@ -155,4 +155,4 @@ def punto18(monto_total):
 
     return print("cuota especial: ",cuota_especial, "cuota ordinaria: ", couta_ordinaria)
 
-punto18(2500000)
+punto18(2400000)
