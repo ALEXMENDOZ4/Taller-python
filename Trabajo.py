@@ -91,3 +91,11 @@ def punto11(tiempo_horas):
     return print("el resultado del pago", pago, "el resultado del descuento ", descuento)
 
 punto11(5)
+
+
+
+def punto12(inicial, final):
+    r = (inicial - final) - ((inicial - final) * 0.2)
+    return print("el resultado es de: ", r)
+
+punto12(5,10)
