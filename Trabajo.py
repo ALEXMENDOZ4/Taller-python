@@ -63,6 +63,14 @@ def punto8(sueldo):
     caja = sueldo * 0.05
     sueldo_final = sueldo - ley - segurosocial - seguroforsozo - caja
 
-    return print("resultado: ", ley, "resultado: ", segurosocial, "resultado: ", seguroforsozo, "resultado:", caja, "resultado: ", sueldo_final)
+    return print("resultado de ley: ", ley, "resultado seguro social: ", segurosocial, "resultado seguro forsozo: ", seguroforsozo, "resultado caja:", caja, "resultado sueldo final: ", sueldo_final)
 
 punto8(750000)
+
+
+
+def punto9(n_palabras, tam, col):
+    r = (n_palabras * 20000) + (tam * 15000) + (col * 25000)
+    return print("el resultado es de: ", r) 
+
+punto9(10,8,6)
