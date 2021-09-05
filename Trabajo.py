@@ -128,3 +128,13 @@ def punto15(n_peliculas, n_dias):
 
 punto15(10,15)
 
+
+
+def punto16(n_personas, n_dias):
+    total = (n_personas * 25000) * n_dias
+    total_iva = total + total * 0.12
+    r = total_iva
+    return print("el resultado es de: ", r)
+
+punto16(10,8)
+
