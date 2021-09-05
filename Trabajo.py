@@ -99,3 +99,11 @@ def punto12(inicial, final):
     return print("el resultado es de: ", r)
 
 punto12(5,10)
+
+
+
+def punto13(n_fotos):
+    r = (n_fotos * 1500) + ((n_fotos * 1500) * 0.16)
+    return print("el resultado es de: ", r)
+
+punto13(15)
