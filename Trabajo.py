@@ -107,3 +107,14 @@ def punto13(n_fotos):
     return print("el resultado es de: ", r)
 
 punto13(15)
+
+
+
+def punto14(monto):
+    ginecologia =  monto * 0.4
+    traumatologia = monto * 0.3
+    pediatria = monto * 0.3
+
+    return print("ginecologia: ", ginecologia,"traumatologia: ", traumatologia,"pediatria: ", pediatria)
+
+punto14(150000)
