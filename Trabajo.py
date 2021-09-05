@@ -74,3 +74,11 @@ def punto9(n_palabras, tam, col):
     return print("el resultado es de: ", r) 
 
 punto9(10,8,6)
+
+
+
+def punto10(tiempo):
+    r = 100000 + (120000 * (tiempo - 1))
+    return print("el resultado es de: ", r) 
+
+punto10(30)
