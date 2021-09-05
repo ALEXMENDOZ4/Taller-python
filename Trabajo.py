@@ -146,3 +146,13 @@ def punto17(n_dias):
 
 punto17(10)
 
+
+
+def punto18(monto_total):
+    total_pago = (monto_total * 0.24) + monto_total
+    cuota_especial = total_pago / 2 / 4
+    couta_ordinaria = total_pago / 2 / 20
+
+    return print("cuota especial: ",cuota_especial, "cuota ordinaria: ", couta_ordinaria)
+
+punto18(2500000)
