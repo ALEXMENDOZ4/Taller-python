@@ -118,3 +118,13 @@ def punto14(monto):
     return print("ginecologia: ", ginecologia,"traumatologia: ", traumatologia,"pediatria: ", pediatria)
 
 punto14(150000)
+
+
+
+
+def punto15(n_peliculas, n_dias):
+    r = ((n_peliculas - 1) * 1500) * n_dias
+    return print("el resultado es de: ", r)
+
+punto15(10,15)
+
