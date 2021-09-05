@@ -138,3 +138,11 @@ def punto16(n_personas, n_dias):
 
 punto16(10,8)
 
+
+
+def punto17(n_dias):
+    r = ((n_dias - 1) * 200000) + 100000
+    return print("el resultado es de: ", r) 
+
+punto17(10)
+
